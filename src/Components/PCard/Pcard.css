@@ -1,0 +1,30 @@
+@media only screen and (min-width: 700px) {
+  .main_project_card {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .project_image {
+    width: 50%;
+    padding: 5px;
+  }
+  .project_image img {
+    width: 90%;
+    height: 20rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 6px 6px 20px black;
+  }
+  .project_info {
+    color: white;
+    width: 50%;
+    flex-wrap: wrap;
+  }
+  .project_info a {
+    color: rgb(0, 0, 150);
+    font-weight: 600;
+  }
+}

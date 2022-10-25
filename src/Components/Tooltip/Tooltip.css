@@ -1,0 +1,20 @@
+@media only screen and (min-width: 700px) {
+    .display{
+        position: absolute;
+        display: block;
+        top: 40px;
+        width: inherit;
+        height: fit-content;
+        z-index: 100;
+    }
+    .hide{
+        display: none;
+    }
+    #tooltip{
+        background-color: black;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 0px;
+        color: white;
+    }
+}

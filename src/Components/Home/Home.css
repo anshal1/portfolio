@@ -1,0 +1,57 @@
+@media only screen and (min-width: 700px) {
+    .main_home_container{
+        width: 100%;
+        min-height: 100vh;
+        height: fit-content;
+    }
+    .upper_container{
+        width: 100%;
+        background-image: url("../../Img/back.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 75vh;
+        padding-top: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: visible;
+    }
+    .my_image{
+        width: 50%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
+    }
+    .my_image img{
+        width: 80%;
+        height: 35rem;
+        border-radius: 10px;
+        box-shadow: 6px 6px 20px rgb(0, 0, 0);
+    }
+    .about_hide{
+        height: 0rem;
+        width: 0%;
+        overflow: hidden;
+        word-break: keep-all;
+    }
+    .about{
+        width: 50%;
+        height: 35rem;
+        transition: all 3.5s;
+        color: white;
+        padding: 5px;
+        word-break: keep-all;
+    }
+    .about p{
+        width: 100%;
+        font-size: 18px;
+    }
+    #git{
+        cursor: pointer;
+    }
+    a{
+        color: white;
+    }
+}

@@ -1,0 +1,19 @@
+@media only screen and (min-width: 700px) {
+    .main_projects_container{
+        width: 100%;
+        height: fit-content;
+    }
+    .heading h1{
+        text-align: center;
+    }
+    .project_box{
+        width: 100%;
+        height: fit-content;
+        background-color: #99738E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+}

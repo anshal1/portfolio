@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+ h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #FC888C;
+    transition: all .2s;
+}
+button:hover{
+    background-color: #F64C72;
+}
