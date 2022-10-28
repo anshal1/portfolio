@@ -1,12 +1,11 @@
 import React from "react";
 import { useContext } from "react";
 import Context from "../../Context/Context";
-import Tooltip from "../Tooltip/Tooltip";
 import {useNavigate} from "react-router-dom"
 import "./Navbar.css";
 const Navbar = () => {
   const c = useContext(Context);
-  const { setHover, Scrolled } = c;
+  const {  Scrolled } = c;
   const navi = useNavigate()
   return (
     <>
@@ -18,7 +17,9 @@ const Navbar = () => {
           <p className="links" onClick={()=>{
             navi("/");
           }}>Home</p>
-          <p className="links">Resume</p>
+          <p className="links" onClick={()=>{
+            navi("/resume")
+          }}>Resume</p>
           {/* <button
             className="contact_btn"
             onMouseEnter={() => {

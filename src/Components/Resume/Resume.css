@@ -1,0 +1,16 @@
+@media only screen and (min-width: 700px){
+    .main_resume_container{
+        width: 100%;
+        height: 110vh;
+        background-image: url("../../Img/back.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_resume_container img{
+        width: 45%;
+        height: inherit;
+    }
+}
